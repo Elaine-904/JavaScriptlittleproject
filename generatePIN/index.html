@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>generatepin</title>
+</head>
+<body>
+  <script src="./dist/index_bundle.js"></script>
+</body>
+  <div > 
+    <h1 >generate PIN</h1>
+    <textarea name="showpin" id="list" cols="100" rows="50"></textarea>
+  </div>
+<script>
+  var thepin = $.generate([])
+  document.getElementById('list').innerHTML = thepin;
+</script>
+</html>
