@@ -9,7 +9,9 @@ Each PIN should be:
 
 ### Component
 
-go to main.html file, and open it in browser
+go to index.html file, and open it in browser
+
+
 
 
 
