@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>movie lists</h1>
+            <div class="topnav">
+                <a href="./index.html">Home</a>
+                <a href="./yearSearch.html">Year Search</a>
+                <a href="./titleSearch.html">Title Search</a>
+                <form class="form">
+                    <button id="clear" class="clear-results" onclick="clear()">clear</button>
+                    <button id="searchbutton" class="clear-results" type="button" onclick="searchMovieTitle()">search</button>
+                    <input id="search" type="text" onkeyup="getInput()" class="input" placeholder="search the title of the movie...">
+                </form>
+              </div>
+            
+            <p id="test"></p>
+            
+            <p id="title"></p>
+
+
+        </div>
+        <script type="text/javascript" src="./api.js"></script>
+    </body>
+   
+</html>
